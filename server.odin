@@ -10,7 +10,6 @@ import http "../odin-http"
 import aes "../odin-tcp-aes"
 
 db : ^sql.Database
-
 Creds :: sql.Creds
 SqlCreds :: sql.SqlCreds
 
