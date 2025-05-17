@@ -5,9 +5,9 @@ import "core:net"
 import "core:encoding/json"
 import "core:slice"
 
-import sql "odin-sql-connect"
-import http "odin-http"
-import aes "odin-tcp-aes"
+import sql "../odin-sql-connect"
+import http "../odin-http"
+import aes "../odin-tcp-aes"
 
 db : ^sql.Database
 
